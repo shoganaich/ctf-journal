@@ -25,7 +25,7 @@
 ## 👨‍💻 About Me
 
 > **Victor Cardoso** (aka Shoganaich)  
-> Cybersecurity student • SOC intern • Learning by doing  
+> Cybersecurity student and intern • Learning by doing  
 > [GitHub](https://github.com/shoganaich) | [LinkedIn](https://www.linkedin.com/in/victordccardoso/) | [Blog](https://shoganaich.bearblog.dev/)
 
 ---
