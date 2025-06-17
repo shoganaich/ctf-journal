@@ -5,21 +5,21 @@ All queries are real-world tested in CTF's, threat hunts or Labs.
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
-* [Azure & VM Recon](#azure--vm-recon)
-* [Process Creation & LOLBins](#process-creation--lolbins)
-* [Persistence: Registry, Scheduled Tasks, Shortcuts](#persistence-registry-scheduled-tasks-shortcuts)
-* [Network Beacons & C2](#network-beacons--c2)
-* [File Drops & Artifacts](#file-drops--artifacts)
-* [Obfuscation & Encoded Commands](#obfuscation--encoded-commands)
-* [User Logons & Lateral Movement](#user-logons--lateral-movement)
-* [Compression, Exfiltration, & Staging](#compression-exfiltration--staging)
-* [Quick Tips, Formatting, & Troubleshooting](#quick-tips-formatting--troubleshooting)
+- [Azure & VM Recon](#azure--vm-recon)
+- [Process Creation & LOLBins](#process-creation--lolbins)
+- [Persistence Registry Scheduled Tasks Shortcuts](#persistence-registry-scheduled-tasks-shortcuts)
+- [Network Beacons & C2](#network-beacons--c2)
+- [File Drops & Artifacts](#file-drops--artifacts)
+- [Obfuscation & Encoded Commands](#obfuscation--encoded-commands)
+- [User Logons & Lateral Movement](#user-logons--lateral-movement)
+- [Compression Exfiltration & Staging](#compression-exfiltration--staging)
+- [Quick Tips Formatting & Troubleshooting](#quick-tips-formatting--troubleshooting)
 
 ---
 
-## 🖥️ Azure & VM Recon
+## Azure & VM Recon
 
 *Finding newly created, deleted, or short-lived VMs in Azure Log Analytics Workspace.*
 
@@ -58,7 +58,7 @@ VMHUNT = AzureActivity
 
 ---
 
-## 🏃‍ Process Creation & LOLBins
+## Process Creation & LOLBins
 
 *Catch suspicious PowerShell, LOLBin, and manual EXE launches (esp. via explorer.exe).*
 
@@ -89,7 +89,7 @@ DeviceProcessEvents
 
 ---
 
-## 🔗 Persistence: Registry, Scheduled Tasks, Shortcuts
+## Persistence Registry Scheduled Tasks Shortcuts
 
 *Registry run keys, scheduled task creation, and dropped .lnk files.*
 
@@ -145,7 +145,7 @@ DeviceFileEvents
 
 ---
 
-## 🌐 Network Beacons & C2
+## Network Beacons & C2
 
 *Detect exfiltration, beacons, or connections to external C2 or staging domains.*
 
@@ -164,7 +164,7 @@ DeviceNetworkEvents
 
 ---
 
-## 🗂️ File Drops & Artifacts
+## File Drops & Artifacts
 
 *Hunt for dropped malware, scripts, .lnk, or anything with "keywd1" "keywd2" "keywd3" or "keywd4" in the name.*
 
@@ -197,7 +197,7 @@ DeviceFileEvents
 
 ---
 
-## 🧙 Obfuscation & Encoded Commands
+## Obfuscation & Encoded Commands
 
 *Detect use of -EncodedCommand, PowerShell base64 blobs, or odd command-line parameters.*
 
@@ -227,7 +227,7 @@ DeviceProcessEvents
 
 ---
 
-## 👤 User Logons & Lateral Movement
+## User Logons & Lateral Movement
 
 *Spot brute-force, remote logons, and credential abuse.*
 
@@ -246,7 +246,7 @@ DeviceLogonEvents
 
 ---
 
-## 📦 Compression, Exfiltration, & Staging
+## Compression Exfiltration & Staging
 
 *Find compressed files, archivers, or suspicious staging activity.*
 
@@ -265,7 +265,7 @@ DeviceProcessEvents
 
 ---
 
-## ⚡ Quick Tips, Formatting, & Troubleshooting
+## Quick Tips Formatting & Troubleshooting
 
 **Show Complete UTC Timestamping for KQL Output:**
 
