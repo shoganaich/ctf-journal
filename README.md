@@ -22,6 +22,16 @@
 
 ---
 
+## 📂 Contents
+
+| 🏴‍☠️ CTF/Lab         | 📝 Description                        | 📄 Writeup      |  KQL Logs    | 🗒️ Original Notes (PDF)                                                                                |
+|------------------------------|---------------------------------------|-----------------|-----------------|-------------------------------------------------------------------------------------|
+| Deep Access: The Adversary   | Multi-host CTF; persistence, lateral move | _Coming soon_   | _Coming soon_   | [Deep Access The Adversary.pdf](Cyber%20Range/Deep%20Access%20-%20The%20Adversary/Victor%20Threat%20Hunt%20Notes%20-%20Deep%20Access%20The%20Adversary.pdf) |
+| The Great Admin Heist        | Malware dropper, LOLBin, persistence hunt | _Coming soon_   | _Coming soon_   | [The Great Admin Heist.pdf](Cyber%20Range/The%20Great%20Admin%20Heist/Victor%20Threat%20Hunt%20Notes%20-%20The%20Great%20Admin%20Heist.pdf) |
+| *More coming soon...*        |                                       |                 |                 |                                                                                     |
+
+
+---
 ## 👨‍💻 About Me
 
 > **Victor Cardoso** (aka Shoganaich)  
